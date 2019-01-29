@@ -21,7 +21,7 @@ const Banner = styled.div`
 
 export default ({ tcr }) => (
   <BannerWrapper>
-    <Banner>{'Neque porro quisquam est qui dolorem ipsum quia'}</Banner>
+    <Banner>TCR Party's temporary UI</Banner>
     {/* <Banner>{`Address: ${tcr.registryAddress}`}</Banner> */}
   </BannerWrapper>
 )
