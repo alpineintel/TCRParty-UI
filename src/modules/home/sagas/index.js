@@ -14,7 +14,7 @@ export function* genesis() {
   try {
     const ethjs = yield call(getEthjs)
     const networkID = yield call(ethjs.net_version)
-    const network = 'ganache'
+    const network = 'rinkeby'
     const account = (yield call(ethjs.accounts))[0]
 
     if (account === undefined) {
