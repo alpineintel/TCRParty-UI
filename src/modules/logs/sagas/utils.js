@@ -5,7 +5,7 @@ import * as actions from '../actions'
 import * as types from '../types'
 
 export function* getSortedLogsSaga(
-  blockRange = { fromBlock: '0', toBlock: 'latest' },
+  blockRange = { fromBlock: '3812614', toBlock: 'latest' },
   eventNames = [],
   contract
 ) {

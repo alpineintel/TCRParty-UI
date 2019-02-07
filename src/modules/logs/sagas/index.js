@@ -33,7 +33,7 @@ function* getFreshLogs() {
 
     // block range to search
     const blockRange = {
-      fromBlock: network === 'mainnet' ? 5000000 : 0,
+      fromBlock: network === 'rinkeby' ? 3812614 : 0,
       toBlock: 'latest',
     }
 
